@@ -1,0 +1,6 @@
+version: "3.3"
+services :
+   web :
+     image : praveen169/firstsite:tagname:v1
+     ports:
+       - "8000:8000"
